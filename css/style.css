@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Kaushan+Script&family=Lilita+One&family=Permanent+Marker&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*vaiables*/
+
+:root{
+    /*colores*/
+    --color-one:#FFE6E6;
+    --color-two:#E1AFD1 ;
+    --color-three:#AD88C6;
+    --color-four:#7469B6;
+    --color-five: #578bec;
+    --color-a:white;
+    --color-b:black;
+
+    /* Gradientes */
+    --gradiente-A:radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% ) fixed;
+
+    /* Fuentes */
+    --textos: "Kaushan Script", cursive;
+    --textos:"Lilita One"
+    --textos:"Permanent Marker", cursive; 
+}
+
+body{
+    background-color: var(--color-five);
+}
+
+
+header H1 { 
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align:left;
+    background: var(--color-three);
+    padding: 10px 20px;
+    text-shadow: var(--color-one) 3px 2px;
+}
+h5 a:hover{ 
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align:right;
+    
+    padding: 10px 20px;
+    text-shadow: var(--color-one) 3px 2px;
+    font-size: x-large;
+    
+    transform: translateY(-5px);
+    transition: ease-in-out 0.3s;
+
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+}
+
+h1{
+    color:var(--color-b)
+}
+
+h2{
+    text-align: center;
+    margin: 0px 40px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background:var(--color-one) ;
+    box-shadow:var(--color-two) 0px 0px 0px 3px;
+    border-radius: 10px;
+    
+
+}
+main p h2{
+    background: var(--color-two);
+}
+main div{
+    margin: 30px 20px ;
+    height: auto;
+    width: 25%;
+    border-radius: 1rem;
+    
+    
+}
+p{
+    text-align: center;
+    margin-left: 370px;
+    margin-top: 200px;
+    column-gap:  350px; ;
+    position: absolute;
+    font-family:var(--gradiente-A);
+    font-size: x-large;
+}
+    
+    
+img{
+    border-radius:  1rem;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    margin-left: 100px;
+}
+h4{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+div{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    background-color: var(--color-two);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    
+
+    padding: 15px 0;
+}
+
+.footer-links{
+    display: flex;
+    column-gap: 150px;
+    color: whitesmoke;
+}
+
+.footer-links a:hover{
+    transform: translateY(-5px);
+    transition: ease-in-out 0.3s;
+
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+}
